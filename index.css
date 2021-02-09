@@ -1,0 +1,96 @@
+body {
+    margin:0px;
+    font-family: 'Viga', sans-serif;
+  }
+  .banner-img{
+    background-image: url(./images/finance_TI.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: blur(7px);
+    height: 100%;
+    block-size: 666px;
+  }
+  h1, h2, h3, h4, h5, h6, a {
+    margin:0; padding:0;
+  }
+  .login {
+    margin:0 auto;
+    max-width:500px;
+  }
+  .login-header {
+    position: absolute;
+    top: 10%;
+    left: 29%;
+    text-align:center;
+    font-size:200%;
+    font-family: 'Viga', sans-serif;
+    -webkit-text-fill-color: #020130;
+    /*-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;*/
+  }
+  .login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    width: 35%;
+    padding: 40px 0;
+    text-align: center;
+    border:.5px solid #fff;
+    background:#020130;
+    border-radius:10px;
+    box-shadow:0px 0px 10px #000;
+    box-sizing:border-box;
+    text-align:center;
+    margin-top: 20px;
+  }
+  .login-form h3 {
+    text-align:left;
+    margin-left:40px;
+    color:#fff;
+  }
+  .login input[type="text"],
+  .login input[type="password"] {
+    max-width:400px;
+      width: 80%;
+    line-height:3em;
+    font-family: 'Bebas Neue', cursive;
+    margin:1em 2em;
+    border-radius:5px;
+    border:2px solid #f2f2f2;
+    outline:none;
+    padding-left:10px;
+  }
+  .login-form input[type="button"] {
+    height:30px;
+    width:100px;
+    background:#fff;
+    border:1px solid #f2f2f2;
+    border-radius:20px;
+    color: slategrey;
+    text-transform:uppercase;
+    font-family: 'Bebas Neue', cursive;
+    cursor:pointer;
+  }
+  .sign-up{
+    color:#f2f2f2;
+    margin-left:-60%;
+    cursor:pointer;
+    text-decoration:underline;
+    font-family: 'Viga', sans-serif;
+  }
+  .no-access {
+    color:#E86850;
+    margin:20px 0px 20px -48%;
+    text-decoration:underline;
+    cursor:pointer;
+    font-family: 'Viga', sans-serif;
+  }
+  .try-again {
+    color:#f2f2f2;
+    text-decoration:underline;
+    cursor:pointer;
+  }
+  
